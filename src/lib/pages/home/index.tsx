@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <Box>
       {data.map((item) => (
-        <Box>{item.author}</Box>
+        <Box>{item.title}</Box>
       ))}
     </Box>
   );
