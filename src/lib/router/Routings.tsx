@@ -23,6 +23,7 @@ const Routings = () => {
         {routes.map((routeProps) => (
           <Route {...routeProps} key={routeProps.path as string} />
         ))}
+
         {privateRoutes.map(({ element, ...privateRouteProps }) => (
           <Route
             element={
